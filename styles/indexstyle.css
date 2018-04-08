@@ -1,0 +1,205 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #7986CB;
+    background-image: url("https://images.pexels.com/photos/167684/pexels-photo-167684.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+}
+
+a {
+    text-decoration: none;
+}
+.header{
+    background-color: white;
+    width: 100%;
+    box-shadow: 3px 3px 10px grey;
+    overflow: hidden;
+    font-size: 18px;
+}
+.footer{
+    padding: 50px 0;
+    background-color: white;
+    width: 100%;
+    box-shadow: 3px 3px 10px grey;
+    overflow: hidden;
+    font-size: 18px;
+}
+.containerHeader {
+    width: 991px;
+    margin: 0 auto;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.header a{
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+
+li {
+    display: block;
+}
+
+.container {
+    width: 991px;
+    height: 400px;;
+    margin: 0 auto;
+    padding-top: 25px;
+    /* border: 1px solid black; */
+    box-shadow: 3px 3px 10px grey;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding-bottom: 50px;
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/2015/01/Paris-pen-and-pencil-drawing-wallpaper-hd-widescreen.jpg");
+    background-repeat: no-repeat;
+    background-size: 991px auto;
+}
+.container2 {
+    width: 991px;
+    text-align: center;
+    background-color: white;
+    margin: 0 auto;
+    padding-top: 25px;
+    /* border: 1px solid black; */
+    box-shadow: 3px 3px 10px grey;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding-bottom: 50px;
+    transition-duration: 0.6s;
+}
+.container h3 {
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+.container h2 {
+    text-align: center;
+    color: royalblue;
+}
+
+.container2 h3 {
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+.container2 h2 {
+    text-align: center;
+    color: royalblue;
+}
+
+.posbutton {
+    text-align: center;
+    padding: 10px;
+}
+
+.button {
+    background-color: rgba(16, 116, 231, 0.945);
+    color:white;
+    display: block;
+    margin: 25px auto;
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: solid rgba(16, 116, 231, 0.945) 1px;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color:  rgba(16, 116, 231, 0.945);
+    opacity: 1;
+    color: white;
+    box-shadow: 3px 3px 10px grey;
+}
+
+.header a {
+    border: 0.5px solid #333;
+    border-radius: 5px;
+    margin: 10px 5px;
+    padding: 5px 12px;
+}
+
+.footer a {
+    border: 0.5px solid #333;
+    border-radius: 5px;
+    margin: 10px 5px;
+    padding: 5px 12px;
+}
+
+.header a:hover {
+    background-color: whitesmoke;
+    color: #333;
+}
+
+.active {
+    background-color: whitesmoke;
+}
+
+input[type=submit] {
+    background-color: transparent;
+    border: 0.75px solid  rgba(16, 116, 231, 0.945);
+    width: 90px;
+    height: 30px;
+    padding-bottom: 5px;
+    border-radius: 3px;
+    transition-duration: 0.4s;
+    margin-bottom: 20px;
+}
+
+input[type=submit]:hover {
+    background-color:  rgba(16, 116, 231, 0.945);
+    color: white;
+    cursor: pointer;
+}
+
+input {
+    font-size: 18px;
+    width: 400px;
+    height: 30px;
+    border: 0;
+    background-color: #EEEEEE;
+    border-radius: 3px;
+    margin: 5px;
+}
+
+.card{
+    display: inline-block;
+    /* background-image: url("https://images.pexels.com/photos/245915/pexels-photo-245915.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); */
+    background-size: cover;
+    background-color: #EEEEEE;
+    text-align: left;
+    width:25%;
+    box-shadow: 1px 1px 3px gray;
+    margin: 10px 5px;
+    border-radius: 5px;
+    padding: 20px 30px;
+    transition-duration: 0.2s;
+}
+
+.card h1{
+    color: rgba(16, 116, 231, 0.945);
+}
+
+.card:hover{
+    box-shadow: 3px 5px 3px gray;
+}
+/* .containerLib {
+    width: 991px;
+    margin: 0 auto;
+    padding-top: 25px;
+    border: 1px solid black;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding-bottom: 50px;
+} */

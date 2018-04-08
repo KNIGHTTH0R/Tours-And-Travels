@@ -1,0 +1,44 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.login {
+    width:300px;
+    background-color:white;
+    box-shadow: 3px 3px 10px grey;
+    margin: 10px auto;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px auto;
+}
+
+.inputstyle {
+    width: 250px;
+    height: 40px;
+    outline: none;
+    border: 0;
+    margin: 5px auto; 
+    text-align: center;
+    transition-duration: 0.4s;
+}
+/* input[type=text]:focus, [type=password]:focus, input[type=email]:focus {
+    width:250px;
+}
+input:focus::placeholder{
+    color: transparent;
+}
+input[type=submit] {
+    background-color: transparent;
+    border: 0.75px solid green;
+    width: 90px;
+    height: 30px;
+    padding-bottom: 5px;
+    border-radius: 3px;
+    transition-duration: 0.4s;
+    margin-bottom: 20px;
+}
+
+input[type=submit]:hover {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+} */
